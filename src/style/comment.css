@@ -8,8 +8,33 @@
     font-weight: bold;
     text-align: center;
     color: #3B3B3B;
+    margin-bottom: 100px;
+}
+.comment-carousel-container{
+    display: flex;
+    gap: 20px;
 }
 .comment-carousel{
-    border: 1px solid #E5E5E5;
+    height: 260px;
+    padding: 30px;
+    width: 360px;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.comment-carousel-text{
+    margin-bottom: 20px;
+}
+.comment-carousel-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #635858;
+    line-height: 1.5;
+}
+.comment-carousel-avatar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
   
