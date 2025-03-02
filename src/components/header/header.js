@@ -11,7 +11,7 @@ export default function Header() {
         <Image src='/logo/logo.png' alt="logo" width={150} height={80} />
       </Link>
       <div className='header-links-container'>
-        <Link className='header-link' href="/">Trang chủ</Link>
+        <Link className='header-link' href="/home">Trang chủ</Link>
         <Link className='header-link' href="/about">Về chúng tôi</Link>
         <Link className='header-link' href="/course">Khoá học</Link>
         <Link className='header-link' href="/contact">Liên hệ</Link>

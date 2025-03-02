@@ -1,0 +1,56 @@
+.login-container {
+    background-color: #343a40;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+.login-container h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.login-form{
+    background: #ffffff;
+    padding: 30px 30px 20px;
+    border-radius: 2px;
+    width: 540px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+} 
+.form-group label{
+    color: #878787;
+    font-size: 16px;
+}
+.form-group input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.form-group input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.checkbox {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.forgot-password{
+color: #ff3300;
+}
