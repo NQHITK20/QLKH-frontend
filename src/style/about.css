@@ -1,0 +1,41 @@
+.about-container{
+    margin: 0 80px;
+}
+
+.about-banner-text{
+    background-color: white;
+}
+.about-banner-text h1{
+    color: #000000;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 40px;
+}
+.about-introduce{
+    padding: 20px 0;
+}
+.about-introduce-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-introduce-image{
+    border-radius: 8px;
+}
+.about-introduce-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.about-introduce-text h1{
+    font-size: 45px;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.about-introduce-text p{
+    line-height: 1.5;
+    color: #7D7D7D;
+    width: 700px;
+
+}

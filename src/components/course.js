@@ -2,6 +2,7 @@
 import React from 'react'
 import '../style/course.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Course() {
   return (
@@ -10,9 +11,9 @@ export default function Course() {
             <div className='course-header-text'>
                 <h1>Khám phá khoá học</h1>
             </div>
-            <a className='course-header-button' href='/course'>
+            <Link className='course-header-button' href='/course'>
                 Xem thêm
-            </a>
+            </Link>
         </div>
         <div className='course-list'>
           <div className='course-item'>
@@ -23,9 +24,9 @@ export default function Course() {
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
                 <h3>1.500.000 đ</h3>
               </div>
-              <a className='course-item-button' href='/course-detail'>
+              <Link className='course-item-button' href='/coursedetail'>
                 Xem chi tiết
-              </a>
+              </Link>
           </div>
           <div className='course-item'>
               <div className='course-item-image'>
@@ -35,9 +36,9 @@ export default function Course() {
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
                 <h3>1.500.000 đ</h3>
               </div>
-              <a className='course-item-button' href='/course-detail'>
+              <Link className='course-item-button' href='/course-detail'>
                 Xem chi tiết
-              </a>
+              </Link>
           </div>
           <div className='course-item'>
               <div className='course-item-image'>
@@ -47,9 +48,9 @@ export default function Course() {
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
                 <h3>1.500.000 đ</h3>
               </div>
-              <a className='course-item-button' href='/course-detail'>
+              <Link className='course-item-button' href='/coursedetail'>
                 Xem chi tiết
-              </a>
+              </Link>
           </div>
           <div className='course-item'>
               <div className='course-item-image'>
@@ -59,9 +60,9 @@ export default function Course() {
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
                 <h3>1.500.000 đ</h3>
               </div>
-              <a className='course-item-button' href='/course-detail'>
+              <Link className='course-item-button' href='/coursedetail'>
                 Xem chi tiết
-              </a>
+              </Link>
           </div>
         </div>
     </div>

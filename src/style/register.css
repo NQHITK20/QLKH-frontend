@@ -1,4 +1,4 @@
-.register-container {
+.login-container {
     background-color: #343a40;
     width: 100vw;
     height: 100vh;
@@ -6,12 +6,12 @@
     flex-direction: column;
     align-items: center; /* Căn giữa theo chiều dọc */
 }
-.register-container h1 {
+.login-container h1 {
     color: white;
     text-align: center;
     padding: 20px 0;
 }
-.register-form{
+.login-form{
     background: #ffffff;
     padding: 30px 30px 20px;
     border-radius: 2px;
@@ -46,17 +46,10 @@
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
-.checkbox {
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-}
-.forgot-password{
-color: #ff3300;
-}
+
 .submit-button{
     text-align: center;
-    background-color: #007bff;
+    background-color: #2afc00;
     color: white;
     border: none;
     padding: 15px 20px;
@@ -65,7 +58,7 @@ color: #ff3300;
     margin: 10px 0;
 }
 .submit-button:hover {
-    background-color: #0056b3;
+    background-color: #1eb300;
 }
 .login-link{
     text-align: center;

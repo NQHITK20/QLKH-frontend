@@ -8,6 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -40,26 +41,26 @@ export default function Footer() {
         </div>
         <div className='footer-quick-link'>
             <h2>Liên kết nhanh</h2>
-            <a href='/home'>Trang chủ</a>
-            <a href='/course'>Khoá học</a>
-            <a href='/about'>Về chúng tôi</a>
-            <a href='/contact'>Liên hệ</a>
+            <Link href='/home'>Trang chủ</Link>
+            <Link href='/course'>Khoá học</Link>
+            <Link href='/about'>Về chúng tôi</Link>
+            <Link href='/contact'>Liên hệ</Link>
         </div>
         <div className='footer-social'>
             <h2>Kết nối với chúng tôi</h2>
             <div className='footer-social-icon-container'>
-            <a className='footer-social-icon' href='/'>
+            <Link className='footer-social-icon' href='/'>
             <FaFacebook />
-            </a>
-            <a className='footer-social-icon' href='/'>
+            </Link>
+            <Link className='footer-social-icon' href='/'>
             <FaTwitter />
-            </a>
-            <a className='footer-social-icon' href='/'>
+            </Link>
+            <Link className='footer-social-icon' href='/'>
             <FaYoutube />
-            </a>
-            <a className='footer-social-icon' href='/'>
+            </Link>
+            <Link className='footer-social-icon' href='/'>
             <FaInstagramSquare />
-            </a>
+            </Link>
             </div>
         </div>
         </div>

@@ -3,9 +3,12 @@ import Image from 'next/image';
 import Course from '@/components/course';
 import Comment from '@/components/comment';
 import '../../style/home.css';
+import Header from '@/components/header/header';
+import Footer from '@/components/footer';
 export default function Home() {
   return (
    <div className="home-container">
+    <Header />
     <div className='home-banner'>
       <div className='banner-image'>
         <Image src='/banner/home-banner.jpeg' alt='banner' className='image-style' fill />
@@ -21,6 +24,7 @@ export default function Home() {
     </div>
     < Course />
     <Comment />
+    <Footer />
    </div>
   );
 }

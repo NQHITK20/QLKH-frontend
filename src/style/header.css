@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 80px;
 }
 .header-links-container{
     margin: 0 150px;

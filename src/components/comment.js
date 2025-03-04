@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import '../style/comment.css'
 import Carousel from "react-multi-carousel";
@@ -29,7 +30,6 @@ export default function Comment() {
             <h1>Học viên nói gì về chúng tôi</h1>
         </div>
         <Carousel
-        className='comment-carousel-container'
   swipeable={false}
   draggable={false}
   showDots={true}
