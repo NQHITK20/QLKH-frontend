@@ -56,15 +56,15 @@ export default function About() {
             </div>
             <div className='about-number'>
                 <div className='about-number-item'>
-                    <h1><Counter start={0} end={500} duration={3000} />+</h1>
+                    <h1><Counter start={0} end={500} duration={2000} />+</h1>
                     <p>khóa học</p>
                 </div>
                 <div className='about-number-item'>
-                    <h1><Counter start={0} end={6000} duration={3000} />+</h1>
+                    <h1><Counter start={0} end={6000} duration={2000} />+</h1>
                     <p>học viên</p>
                 </div>
                 <div className='about-number-item'>
-                    <h1><Counter start={0} end={24} duration={3000} />/7</h1>
+                    <h1><Counter start={0} end={24} duration={2000} />/7</h1>
                     <p>hỗ trợ</p> 
                 </div>
             </div>    

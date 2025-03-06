@@ -4,6 +4,11 @@
 
 .about-banner-text{
     background-color: white;
+    width: fit-content;
+    padding: 0 40px;
+    position: relative;
+    margin: -130px auto;
+    border-radius: 8px;
 }
 .about-banner-text h1{
     color: #000000;
@@ -13,6 +18,7 @@
 }
 .about-introduce{
     padding: 20px 0;
+    margin-top: 160px;
 }
 .about-introduce-image-container{
     display: flex;
