@@ -15,6 +15,7 @@ export default function Header() {
         <Link className='header-link' href="/about">Về chúng tôi</Link>
         <Link className='header-link' href="/course">Khoá học</Link>
         <Link className='header-link' href="/contact">Liên hệ</Link>
+        <Link className='header-link' href="/blog">Tin tức</Link>
       </div>
       <div className='header-log-container'>
         <Link className='header-login' href="/login">Đăng nhập</Link>

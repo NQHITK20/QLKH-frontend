@@ -5,6 +5,7 @@ import Comment from '@/components/comment';
 import '../../style/home.css';
 import Header from '@/components/header/header';
 import Footer from '@/components/footer';
+import Blog from '@/components/blog';
 export default function Home() {
   return (
    <div className="home-container">
@@ -24,6 +25,7 @@ export default function Home() {
     </div>
     < Course />
     <Comment />
+    <Blog />
     <Footer />
    </div>
   );

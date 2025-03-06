@@ -47,7 +47,7 @@ export default function Footer() {
             <Link href='/contact'>Liên hệ</Link>
         </div>
         <div className='footer-social'>
-            <h2>Kết nối với chúng tôi</h2>
+            <h2>Kết nối chúng tôi</h2>
             <div className='footer-social-icon-container'>
             <Link className='footer-social-icon' href='/'>
             <FaFacebook />

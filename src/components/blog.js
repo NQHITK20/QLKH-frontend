@@ -1,22 +1,20 @@
-import Footer from '@/components/footer'
-import Header from '@/components/header/header'
+'use client'
 import React from 'react'
+import '../style/course.css'
 import Image from 'next/image'
-import '../../style/course-list.css'
 import Link from 'next/link'
-import '../../style/course.css'
 
-export default function CourseList() {
+export default function Blog() {
   return (
-    <div className='course-list-container'>
-        <Header />
-        <div className='course-list-banner'>
-          <Image className='course-list-image' src='/banner/course-list-banner.jpg' alt='course' width={1140} height={400}/>
-            <div className='course-list-text'>
-                <h1>Khoá học</h1>
+    <div className='course-container'>
+        <div className='course-header'>
+            <div className='course-header-text'>
+                <h1>Khám phá tin tức</h1>
             </div>
+            <Link className='course-header-button' href='/course'>
+                Xem thêm
+            </Link>
         </div>
-        <div className='course-list-content'>
         <div className='course-list'>
           <div className='course-item'>
               <div className='course-item-image'>
@@ -24,7 +22,7 @@ export default function CourseList() {
               </div>
               <div className='course-item-content'>
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
-                <h3>1.500.000 đ</h3>
+                <h3>Nguyễn Quang Hoà</h3>
               </div>
               <Link className='course-item-button' href='/coursedetail'>
                 Xem chi tiết
@@ -36,19 +34,7 @@ export default function CourseList() {
               </div>
               <div className='course-item-content'>
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
-                <h3>1.500.000 đ</h3>
-              </div>
-              <Link className='course-item-button' href='/course-detail'>
-                Xem chi tiết
-              </Link>
-          </div>
-          <div className='course-item'>
-              <div className='course-item-image'>
-                <Image src='/course/course-1.jpg' alt='course-1' width={488} height={325} style={{borderRadius:10}}/>
-              </div>
-              <div className='course-item-content'>
-                <h2>Khoá học frontend Reactjs cao cấp</h2>
-                <h3>1.500.000 đ</h3>
+                <h3>Nguyễn Quang Hoà</h3>
               </div>
               <Link className='course-item-button' href='/coursedetail'>
                 Xem chi tiết
@@ -60,24 +46,25 @@ export default function CourseList() {
               </div>
               <div className='course-item-content'>
                 <h2>Khoá học frontend Reactjs cao cấp</h2>
-                <h3>1.500.000 đ</h3>
+                <h3>Nguyễn Quang Hoà</h3>
+              </div>
+              <Link className='course-item-button' href='/coursedetail'>
+                Xem chi tiết
+              </Link>
+          </div>
+          <div className='course-item'>
+              <div className='course-item-image'>
+                <Image src='/course/course-1.jpg' alt='course-1' width={488} height={325} style={{borderRadius:10}}/>
+              </div>
+              <div className='course-item-content'>
+                <h2>Khoá học frontend Reactjs cao cấp</h2>
+                <h3>Nguyễn Quang Hoà</h3>
               </div>
               <Link className='course-item-button' href='/coursedetail'>
                 Xem chi tiết
               </Link>
           </div>
         </div>
-        </div>
-        <ul className="pagination">
-            <li><a href="#">«</a></li>
-            <li className="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">»</a></li>
-       </ul>
-        <Footer />
     </div>
   )
 }

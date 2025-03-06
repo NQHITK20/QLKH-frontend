@@ -6,6 +6,7 @@ import React from 'react'
 import '../../style/about.css'
 import Image from 'next/image'
 import { useEffect, useState } from "react";
+import Blog from '@/components/blog'
 
 export default function About() {
     const Counter = ({ start, end, duration }) => {
@@ -97,6 +98,7 @@ export default function About() {
             </div>
         </div>
         <Comment />
+        <Blog   />
         <Footer />
     </div>
   )
