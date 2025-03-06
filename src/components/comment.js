@@ -42,7 +42,7 @@ export default function Comment() {
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // removeArrowOnDeviceType={["tablet", "mobile"]}
 //   deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"

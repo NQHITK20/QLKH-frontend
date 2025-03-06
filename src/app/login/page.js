@@ -20,7 +20,7 @@ export default function Login() {
               <label>
                 <input type='checkbox' name='remember' /> Ghi nhớ
               </label>
-              <label className='forgot-password'><a href='/forgetpassword'>Quên mật khẩu?</a></label>
+              <label className='forgot-password'><a href='/forget-password'>Quên mật khẩu?</a></label>
             </div>
             <div className='submit-button'>
               Đăng nhập
