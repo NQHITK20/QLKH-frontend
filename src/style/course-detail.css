@@ -1,0 +1,69 @@
+.course-detail-container{
+    margin: 0 80px;
+}
+.course-detail-text{
+    background-color: white;
+    width: fit-content;
+    padding: 0 40px;
+    position: relative;
+    margin: -130px auto;
+    border-radius: 8px;
+}
+.course-detail-text h1{
+    color: #000000;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 40px;
+}
+.course-detail-content{
+    margin-top: 200px;
+}
+.course-detail-image{
+    object-fit: cover;
+    border-radius: 8px;
+}
+.course-detail-header h1{
+    text-align: center;
+    padding: 40px 0;
+}
+.course-detail-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.course-detail-info h2{
+    font-size: 24px;
+    color: #000000;
+    padding: 20px 0;
+}
+.course-detail-info p{
+    font-size: 16px;
+    color: #7d7d7d;
+    line-height: 1.5;
+}
+.course-detail-info-left{
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    width: 960px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+.course-detail-info-right{
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .08);
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 30px 20px 40px;
+}
+.course-fee{
+    border-radius: 8px;
+    background: #5751e1;
+    -ms-box-shadow: 0 3px 15px 0 rgba(13, 9, 99, .26);
+    -o-box-shadow: 0 3px 15px 0 rgba(13, 9, 99, .26);
+    box-shadow: 0 3px 15px 0 rgba(13, 9, 99, .26);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
