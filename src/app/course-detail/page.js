@@ -5,6 +5,10 @@ import Header from '@/components/header/header'
 import Footer from '@/components/footer'
 import Image from 'next/image'
 import { BsClockHistory } from "react-icons/bs";
+import { GiLevelEndFlag } from "react-icons/gi";
+import { MdOutlinePlayLesson } from "react-icons/md";
+import { BiCertification } from "react-icons/bi";
+import Link from 'next/link'
 
 export default function CourseDetail() {
   return (
@@ -35,16 +39,57 @@ export default function CourseDetail() {
                     <p>✅ Triển khai ứng dụng: Đưa sản phẩm lên Vercel, Netlify hoặc Firebase Hosting.</p>
                 </div>
                 <div className='course-detail-info-right'>
-                    <div className='course-include'>
-                        <div className='course-include-icon'>
-                        <BsClockHistory />
-                        <label>Thời lượng</label>
-                        </div>
-                    </div>
                     <div className='course-fee'>
                         <label>Giá khoá học</label>
-                        <h3>1,500,000 đ</h3>
+                        <h3>1,500,000 vnđ</h3>
                     </div>
+                    <div className='course-include'>
+                        <div className='course-include-icon-container'>
+                        <div className='course-include-icon'>
+                           <GiLevelEndFlag />
+                        </div>
+                        <label>Mức độ</label>
+                        </div>
+                        <div className='course-include-text'>
+                            <p>Nâng cao</p>
+                        </div>
+                    </div>
+                    <div className='course-include'>
+                        <div className='course-include-icon-container'>
+                        <div className='course-include-icon'>
+                           <BsClockHistory />
+                        </div>
+                        <label>Thời lượng</label>
+                        </div>
+                        <div className='course-include-text'>
+                            <p>100 h</p>
+                        </div>
+                    </div>
+                    <div className='course-include'>
+                        <div className='course-include-icon-container'>
+                        <div className='course-include-icon'>
+                           <MdOutlinePlayLesson />
+                        </div>
+                        <label>Bài học</label>
+                        </div>
+                        <div className='course-include-text'>
+                            <p>45</p>
+                        </div>
+                    </div>
+                    <div className='course-include'>
+                        <div className='course-include-icon-container'>
+                        <div className='course-include-icon'>
+                           <BiCertification />
+                        </div>
+                        <label>Chứng nhận</label>
+                        </div>
+                        <div className='course-include-text'>
+                            <p>Có </p>
+                        </div>
+                    </div>
+                    <Link className='course-button' href='/checkout'>
+                        Mua ngay
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,0 +1,21 @@
+.checkout-container{
+    margin: 0 80px;
+}
+.checkout-banner-text{
+    background-color: white;
+    width: fit-content;
+    padding: 0 40px;
+    position: relative;
+    margin: -130px auto;
+    border-radius: 8px;
+}
+.checkout-banner-text h1{
+    color: #000000;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 40px;
+}
+.checkout-content{
+    padding: 20px 0;
+    margin-top: 160px;
+}
