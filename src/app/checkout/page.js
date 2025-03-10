@@ -15,6 +15,34 @@ export default function Checkout() {
                 </div>
         </div>
         <div className='checkout-content'>
+          <form className='checkout-content-left'>
+              <h2>Thông tin thanh toán</h2>
+              <label>Họ và tên</label>
+              <div className='checkout-form'>
+                <input type='text' placeholder='Nhập họ và tên' required/>
+              </div>
+              <label>Email</label>
+              <div className='checkout-form'>
+                <input type='email' placeholder='Nhập email' required/>
+              </div>
+              <label>Số điện thoại</label>
+              <div className='checkout-form'>
+                <input type='text' placeholder='Nhập số điện thoại' required/>
+              </div>
+              <label>Ghi chú</label>
+              <div className='checkout-form'>
+                <textarea placeholder='Nhập ghi chú'></textarea>
+              </div>
+            <div className='checkout-coupon'>
+              <h2>Nhập mã giảm giá</h2>
+              <div className='checkout-form'>
+                <input type='text' placeholder='Nhập mã giảm giá'/>
+                <button>Áp dụng</button>
+              </div>
+            </div>
+          </form>
+          <form className='checkout-content-right'>
+          </form>
         </div>
         <Footer />
     </div>
