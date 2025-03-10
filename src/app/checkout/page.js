@@ -42,6 +42,51 @@ export default function Checkout() {
             </div>
           </form>
           <form className='checkout-content-right'>
+            <h2>Đơn hàng</h2>
+            <div className='checkout-product-container'>
+              <div className='checkout-product-name'>
+              Khóa học lập trình ReactJS cao cấp
+              </div>
+              <div className='checkout-product-price'>
+              1,500,000 vnđ
+              </div>
+            </div>
+            <div className='checkout-product-container'>
+              <div className='checkout-product-name'>
+              Khóa học lập trình ReactJS cao cấp
+              </div>
+              <div className='checkout-product-price'>
+              1,500,000 vnđ
+              </div>
+            </div>
+            <div className='checkout-product-container'>
+              <div className='checkout-product-name'>
+              Khóa học lập trình ReactJS cao cấp
+              </div>
+              <div className='checkout-product-price'>
+              1,500,000 vnđ
+              </div>
+            </div>
+            <div className='checkout-total'>
+             <div className='checkout-product-total-name'>
+              Tổng cộng
+              </div>
+              <div className='checkout-product-total-price'>
+              4,500,000 vnđ
+              </div>
+            </div>
+            <div className='checkout-payment'>
+              <h3>Phương thức thanh toán</h3>
+              <div className='checkout-payment-method'>
+                <input type='radio' id='payment-method' name='payment-method' value='payment-method'/>
+                <label for='payment-method'>Thanh toán qua Paypal</label>
+              </div>
+              <div className='checkout-payment-method'>
+                <input type='radio' id='payment-method' name='payment-method' value='payment-method'/>
+                <label for='payment-method'>Thanh toán qua VnPay</label>
+              </div>
+            </div>
+            <button className='checkout-button'>Đặt hàng</button>
           </form>
         </div>
         <Footer />
