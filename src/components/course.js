@@ -40,7 +40,7 @@ export default function Course() {
                 Xem chi tiết
               </Link>
           </div>
-          <div className='course-item'>
+          <div className='course-item'> 
               <div className='course-item-image'>
                 <Image src='/course/course-1.jpg' alt='course-1' width={488} height={325} style={{borderRadius:10}}/>
               </div>

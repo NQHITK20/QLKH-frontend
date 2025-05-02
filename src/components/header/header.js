@@ -19,7 +19,7 @@ export default function Header() {
       </div>
       <div className='header-log-container'>
         <Link className='header-login' href="/login">Đăng nhập</Link>
-        <Link className='header-sign-up' href="/sign-up">Đăng ký</Link>
+        <Link className='header-sign-up' href="/register">Đăng ký</Link>
       </div>
     </div>
   )

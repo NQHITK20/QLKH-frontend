@@ -14,7 +14,7 @@ export default function Cart() {
                 <div className='cart-banner-text'>
                     <h1>Giỏ hàng</h1>
                 </div>
-        </div>
+        </div> 
         <div className='cart-content'>
             <div className='cart-content-left'>
                 <table className='cart-table'>
