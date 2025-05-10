@@ -10,10 +10,10 @@ export default function Profile() {
     <div className='profile-container'>
         <Header />
         <div className='profile-banner'>
-                    <Image className='profile-banner-image' src='/banner/checkout-banner.jpg' alt='contact' width={1140} height={400}/>
-                        <div className='profile-banner-text'>
-                            <h1>Thông tin cá nhân</h1>
-                        </div>
+          <Image className='profile-banner-image' src='/banner/checkout-banner.jpg' alt='contact' width={1140} height={400}/>
+              <div className='profile-banner-text'>
+                    <h1>Thông tin cá nhân</h1>
+              </div>
         </div>
         <div className='profile-content'>
         <form className='checkout-content-left'>
@@ -29,7 +29,6 @@ export default function Profile() {
               <div className='checkout-form'>
                 <input type='text' placeholder='Nhập số điện thoại' required/>
               </div>
-
               <div className='checkout-form'>
                 <button>Lưu thay đổi</button>
               </div>
