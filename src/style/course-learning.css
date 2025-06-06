@@ -1,0 +1,12 @@
+course-learning-container{
+    display: flex;
+}
+.sidebar {
+  width: 300px;
+  background: #f1f2f6;
+  overflow-y: auto;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+}

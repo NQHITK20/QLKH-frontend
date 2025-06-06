@@ -30,8 +30,8 @@
 }
 
 .cart-table th, td {
-    border: 1px solid grey; /* Viền cho từng ô */
-    padding: 8px; /* Khoảng cách nội dung với viền */
+    border: 1px solid grey; 
+    padding: 8px; 
 }
 .cart-table button{
     background-color: #ff0000;

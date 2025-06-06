@@ -50,5 +50,5 @@
     border-radius: 8px;
 }
 .image-style {
-  object-fit: cover; /* Giữ tỷ lệ, cắt phần dư */
+  object-fit: cover;
 }

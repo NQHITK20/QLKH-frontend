@@ -79,7 +79,8 @@
     justify-content: space-between;
     padding: 20px 0;
 }
-.about-introduce-content-left-top p,.about-introduce-content-left-bottom-item p{
+.about-introduce-content-left-top p
+,.about-introduce-content-left-bottom-item p{
     color: #7D7D7D;
     line-height: 1.5;
     padding: 20px 0;
