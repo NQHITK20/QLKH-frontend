@@ -1,0 +1,99 @@
+/* Dashboard.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.menu-title {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.welcome-box {
+    background-color: #d4edda;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #28a745;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.chart-wrapper {
+    height: 100px;
+}
+
+/* Background color utility classes */
+.bg-cyan {
+    background-color: #17a2b8;
+}
+
+.bg-red {
+    background-color: #dc3545;
+}
+
+.bg-blue {
+    background-color: #007bff;
+}
+
+.bg-yellow {
+    background-color: #ffc107;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}

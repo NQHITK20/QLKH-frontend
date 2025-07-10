@@ -32,7 +32,6 @@ course-learning-container{
 .section-title {
   display: flex;
   justify-content: space-between;
-  /* Đẩy mũi tên về bên phải */
   align-items: center;
   font-weight: 600;
   font-size: 16px;
@@ -88,7 +87,6 @@ course-learning-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Canh giữa nội dung */
 }
 
 .lesson-video-wrapper {
@@ -150,4 +148,28 @@ course-learning-container{
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #3498db;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.lesson-item {
+  padding: 10px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-item:hover {
+  background-color: #e8f4fc;
 }
