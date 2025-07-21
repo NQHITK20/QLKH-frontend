@@ -1,7 +1,8 @@
 // src/app/admin/layout.js
 import Sidebar from "./sidebar";
 import Header from "./header";
-import "../../style/admin.css"; // hoặc css riêng nếu bạn có
+import "../../style/admin.css"; 
+
 
 export default function AdminLayout({ children }) {
   return (

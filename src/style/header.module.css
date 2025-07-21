@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    z-index: 10;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.rightSection {
+    position: relative;
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 120px;
+    z-index: 99;
+}
+
+.menuItem {
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
