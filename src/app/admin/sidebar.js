@@ -13,7 +13,7 @@ export default function Sidebar() {
 
   return (
     <div className="sidebar">
-      <h2 className="logo">📚 Book Library</h2>
+      <h2 className="logo">📚 COURSE</h2>
       <ul className="menu">
         <li>
           <Link href="/admin/dashboard">Dashboard</Link>
